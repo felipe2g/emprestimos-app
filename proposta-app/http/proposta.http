@@ -1,0 +1,17 @@
+### Obter todas as propostas
+GET http://localhost:8080/proposta
+Content-Type: application/json
+
+### Criar Proposta
+POST http://localhost:8080/proposta
+Content-Type: application/json
+
+{
+  "nome": "John",
+  "sobrenome": "Doe",
+  "telefone": "(11) 12345-6789",
+  "cpf": "123.456.789-01",
+  "renda": 5000.00,
+  "valorSolicitado": "10000.00",
+  "prazoPagamento": 12
+}
